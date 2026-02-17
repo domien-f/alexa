@@ -1,0 +1,47 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda",
+          "uri": "ask-custom-glucose-monitor-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "usesPersonalInfo": false,
+      "locales": {
+        "en-US": {}
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Glucose Monitor",
+          "summary": "Reads your latest glucose from Nightscout",
+          "description": "Private skill that fetches your latest CGM glucose reading and trend from a Nightscout instance.",
+          "examplePhrases": [
+            "Alexa, open glucose monitor",
+            "Alexa, ask glucose monitor what is my glucose",
+            "Alexa, ask glucose monitor check my blood sugar"
+          ],
+          "keywords": [
+            "glucose",
+            "nightscout",
+            "cgm",
+            "diabetes"
+          ]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Private skill for personal use.",
+      "category": "HEALTH_AND_FITNESS",
+      "distributionCountries": []
+    }
+  }
+}
