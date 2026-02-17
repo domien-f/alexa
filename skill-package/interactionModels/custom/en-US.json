@@ -1,0 +1,55 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "glucose monitor",
+      "intents": [
+        {
+          "name": "GetGlucoseIntent",
+          "slots": [],
+          "samples": [
+            "what is my glucose",
+            "what's my glucose",
+            "what's my blood sugar",
+            "what is my blood sugar",
+            "what's my sugar",
+            "what is my sugar",
+            "glucose reading",
+            "current glucose",
+            "get my glucose",
+            "check my glucose",
+            "check my blood sugar",
+            "read my glucose",
+            "how is my glucose",
+            "how's my blood sugar",
+            "tell me my glucose",
+            "give me my glucose reading"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [],
+      "delegationStrategy": "ALWAYS"
+    }
+  }
+}
